@@ -26,8 +26,8 @@ const openSans = localFont({
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "ADEOLA ADENIPEKUN | Colourist | Berlin | Tokyo",
-  description: "ADEOLA ADENIPEKUN is a digital colourist based in Berlin and Tokyo",
+  title: "ADEOLA ADENIPEKUN | Creative Director | Artist | Animator",
+  description: "ADEOLA ADENIPEKUN is a creative director, artist and animator.",
 };
 
 export default function RootLayout({
