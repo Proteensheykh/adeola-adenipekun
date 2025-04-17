@@ -29,7 +29,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'KEL-P X WANDE COAL - OLD SOULDIER',
+    title: 'KEL-P X WANDE COAL - OLD SOLDIER',
     slug: 'old-soldier-kel-p',
     category: 'Music Video',
     thumbnailUrl: 'https://i.ibb.co/9mtG3dQ7/OLD-SOLDIER-final-mix-00-01-34-09-Still024.png',

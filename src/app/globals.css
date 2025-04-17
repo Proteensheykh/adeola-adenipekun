@@ -93,7 +93,11 @@
 }
 
 .main-title {
-  @apply text-4xl md:text-5xl lg:text-6xl font-adobe-caslon uppercase tracking-wide;
+  @apply text-3xl md:text-5xl lg:text-6xl font-adobe-caslon uppercase tracking-wide;
+}
+
+.professional-title {
+  @apply text-base md:text-xl lg:text-2xl font-adobe-caslon uppercase tracking-wide;
 }
 
 /* Header and nav styles */

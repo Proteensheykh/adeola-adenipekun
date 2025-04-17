@@ -24,11 +24,12 @@ export default function Home() {
             />
             Your browser does not support the video tag.
           </video>
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex flex-col items-center justify-center">
             <h1 className="main-title text-white opacity-60">ADEOLA ADENIPEKUN</h1>
+            <h3 className="professional-title text-white opacity-40">CREATIVE DIRECTOR X ANIMATOR</h3>
           </div>
           {/* <div className="absolute inset-0 flex items-center justify-center">
-            <h3 className="text-white opacity-40">CREATIVE DIRECTOR X ANIMATOR</h3>
+            
           </div> */}
         </div>
       </div>
