@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 0 0% 9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 0 0% 9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.5%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.5%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.5%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.5%;
+    --input: 0 0% 14.5%;
+    --ring: 0 0% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+  h1, h2, h3 {
+    @apply font-adobe-caslon;
+  }
+  h4, h5, h6 {
+    @apply font-helvetica-bold;
+  }
+}
+
+/* Custom styles for the ADEOLA ADENIPEKUN site */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  /*gap: 1rem;*/
+}
+
+.project-category {
+  @apply text-xs uppercase tracking-wider font-helvetica-bold;
+}
+
+.main-title {
+  @apply text-4xl md:text-5xl lg:text-6xl font-adobe-caslon uppercase tracking-wide;
+}
+
+/* Header and nav styles */
+.site-header {
+  @apply fixed top-0 w-full z-50 flex justify-between items-center py-4 px-6 md:px-10 bg-background/90 backdrop-blur-sm transition-colors duration-300;
+}
+
+.hamburger-menu {
+  @apply flex flex-col justify-center items-center w-8 h-8 space-y-1.5 cursor-pointer;
+}
+
+.hamburger-menu span {
+  @apply w-full h-0.5 bg-foreground transition-all duration-300;
+}
+
+.menu-open .hamburger-menu span:first-child {
+  @apply transform rotate-45 translate-y-2;
+}
+
+.menu-open .hamburger-menu span:nth-child(2) {
+  @apply opacity-0;
+}
+
+.menu-open .hamburger-menu span:last-child {
+  @apply transform -rotate-45 -translate-y-2;
+}
+
+/* Footer styles */
+.site-footer {
+  @apply bg-[#181717] text-white py-12 px-6 md:px-10 dark:bg-black;
+}
+
+/* About page styles */
+.about-content {
+  @apply max-w-3xl mx-auto py-20 px-6 md:px-10 space-y-6 font-open-sans;
+}
+
+/* Project detail styles */
+.project-detail {
+  @apply max-w-5xl mx-auto py-20 px-6 md:px-10;
+}
+
+.project-detail-header {
+  @apply flex flex-col md:flex-row justify-between mb-12;
+}
+
+.project-detail-info {
+  @apply flex flex-col space-y-2;
+}
+
+.project-detail-media {
+  @apply grid grid-cols-1 gap-0;
+}
