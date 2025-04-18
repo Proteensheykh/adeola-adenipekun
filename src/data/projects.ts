@@ -67,8 +67,10 @@ export const projects: Project[] = [
     category: 'Fashion film',
     thumbnailUrl: 'https://i.ibb.co/zTr763Qt/IMG-3741.jpg',
     images: [
-      'https://ext.same-assets.com/2823222569/3585860137.png',
-      'https://ext.same-assets.com/2823222569/2649963555.png'
+      'https://i.ibb.co/Yq0GKDY/Cropped-2.jpg',
+      'https://i.ibb.co/FbvF043g/Cropped.jpg',
+      'https://i.ibb.co/60Jy8ZkJ/Cropped-1.jpg',
+      'https://i.ibb.co/Yq0GKDY/Cropped-2.jpg'
     ],
     production: '17:17 Creations',
     director: 'Adeola Adenipekun',
