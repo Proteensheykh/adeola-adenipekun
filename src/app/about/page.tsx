@@ -25,43 +25,15 @@ export default function AboutPage() {
 
       <div className="about-content">
         <p className="dark:text-gray-300">
-          ADEOLA ADENIPEKUN is a colourist from Berlin whose work is defined by a combination of her passion for visual aesthetic and determined perfectionism.
+        Adeola is a multidisciplinary creative director and visual strategist with a passion for crafting compelling, visually-rich stories that connect deeply with audiences. With a background in production design, stop-motion animation, content creation and marketing, she brings a unique blend of artistic vision and strategic thinking to every project.  
         </p>
 
         <p className="dark:text-gray-300">
-          She's consistently emphasizing on the infinite beauty of skin tones and harmony of colours.
+        In 2024, she founded 17:17 creations, a creative production outfit where she leads a team that helps brands tell visually stimulating stories through bold creative direction, imaginative set design, and high-quality video production. She has collaborated with entertainment, commercial , and lifestyle brands, creating realistic worlds, crafting immersive experiences and scroll-stopping content that not only looks good but feels intentional, immersive, and results-driven.
         </p>
 
         <p className="dark:text-gray-300">
-          In the early days of her career, Mai's focus was all on gaining perspective: Living and working in Tokyo and Barcelona enabled her to not only speak four languages, but also to see things from a different perspective.
-        </p>
-
-        <p className="dark:text-gray-300">
-          Since 2012, Mai has been constantly working for and with numerous top-notch film productions, directors and artists.
-        </p>
-
-        <p className="dark:text-gray-300">
-          After she returned from living in Tokyo, she started out as a post production junior and worked at several productions in Berlin and Munich.
-        </p>
-
-        <p className="dark:text-gray-300">
-          Later she carried on as a freelance editor and director to then specialise as a colourist working for various international productions, post houses, agencies and artists.
-        </p>
-
-        <p className="dark:text-gray-300">
-          The focus on colours began in 2016 when she moved to Barcelona to attend private classes in colour grading with one of Barcelona's most renowned colourists.
-        </p>
-
-        <p className="dark:text-gray-300">
-          In 2017, Mai worked together with a senior colourist in Berlin and then developed her abilities in color grading independently.
-        </p>
-
-        <p className="dark:text-gray-300">
-          In 2020 she went back to Tokyo to join Digital Garden Inc.
-        </p>
-
-        <p className="dark:text-gray-300">
-          Since 2022 she has expanded her base to Cape Town, Lagos and L.A and works on beautiful projects across the globe.
+        Her work is rooted in a deep understanding of storytelling, attention to detail, and an ability to translate abstract ideas into tangible, scroll-stopping visuals. Wheth...
         </p>
       </div>
     </MainLayout>
