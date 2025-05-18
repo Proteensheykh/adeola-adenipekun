@@ -10,7 +10,7 @@ export default function AboutPage() {
     <MainLayout>
       <div className="relative w-full h-[50vh] bg-gray-100 dark:bg-gray-900">
         <Image
-          src="https://ext.same-assets.com/2417499769/2527171713.jpeg"
+          src="https://res.cloudinary.com/cloud42/image/upload/v1747569854/Sheriff0068_lyaaoi.jpg"
           alt="ADEOLA ADENIPEKUN"
           fill
           className="object-cover"
