@@ -74,8 +74,8 @@ export default function ProjectDetailPage({ params }: { params: { slug: string }
         {/* Back button */}
         <div className="mt-12 text-center">
           <Link href="/" className="inline-flex items-center text-sm uppercase font-helvetica-bold hover:underline">
+            <span className="mr-1">&#8592;</span>
             GO BACK
-            <span className="ml-1">&#10230;</span>
           </Link>
         </div>
       </div>
